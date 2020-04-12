@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Merriweather" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Michroma&subset=latin,latin-ext'>
+    <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,700italic,300,300italic,400italic'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+    <script src="/js/jquery-3.4.1.min.js"></script>
+    <script src="/js/login.js"></script>
+    <script src="/js/is-connected.js"></script>
+    <script src="/js/index.js"></script>
+
+
+    <title>WARFRAME RATER - Liste</title>
+</head>
+
+
+<body class="HolyGrail" id="header">
+    <header class="headerflex">
+        <ul>
+            <img class="switch" id="logo" src="/img/logo.jpg" alt="erreur d'affichage" >
+        </ul>
+        <ul>
+            <div class="title">WARFRAME RATER</div>
+            <div id="subtitle" class="subtitle">Rate your favorite Warframe</div>
+            <br/>
+            <div id="filter" class="subtitle">No filter</div>
+        </ul>
+        <ul>
+            <li class="switch subtitle" type="button" name="button" id="disconnectbtn">
+                Log Out
+            </li>
+        </ul>
+    </header>
+
+    <div class="HolyGrail-body">
+        <main class="HolyGrail-content">
+            <div id="acceuil">
+                <h2>Warframes</h2>
+                <div class="photos "></div>
+            </div>
+
+            <div id="warframe" style="display:none"></div>
+
+        </main>
+
+        <nav class="HolyGrail-nav">
+            <ul class="menu">
+                <li id="tank" class="cat">Tank</li>
+                <li id="dps" class="cat">DPS</li>
+                <li id="support" class="cat">Support</li>
+            </ul>
+        </nav>
+
+
+
+    </div>
+    <footer>
+        Copyright : Gaël LEJEUNE
+    </footer>
+</body>
+</html>
